@@ -29,3 +29,28 @@ wget -N https://raw.githubusercontent.com/fscarmen/warp/main/menu.sh
 warp [option] [lisence]
 ```
 
+### replit获取root权限
+```
+bash <(curl -s https://raw.githubusercontent.com/sxbai/root-on-replit/master/root.sh)
+```
+
+切换root环境
+```bash
+./dist/proot -S . /bin/bash
+```
+更改root密码
+```bash
+passwd
+```
+安装sudo命令
+```bash
+apt-get install sudo
+```
+安装wget命令
+```bash
+apt-get update -y && apt-get install -y wget
+```
+安装curl命令
+```bash
+apt-get update -y && apt-get install curl -y
+```
