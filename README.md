@@ -41,3 +41,8 @@ tar -xvf root.tar.xz
 
 ./dist/proot -S . /bin/bash
 ```
+
+安装curl命令
+```bash
+apt-get update -y && apt-get install curl -y
+```
