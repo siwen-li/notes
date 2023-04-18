@@ -46,3 +46,7 @@ tar -xvf root.tar.xz
 ```bash
 apt-get update -y && apt-get install curl -y
 ```
+安装wget命令
+```bash
+apt-get update -y && apt-get install -y wget
+```
