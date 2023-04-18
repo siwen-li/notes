@@ -22,3 +22,10 @@ FinalShell下载：https://kjfx.lanzoui.com/iqm6Uosbzha
 ```bash
 bash <(curl -Ls https://cpp.li/openai)
 ```
+
+### 解锁ChatGPT
+```bash
+wget -N https://raw.githubusercontent.com/fscarmen/warp/main/menu.sh
+warp [option] [lisence]
+```
+
