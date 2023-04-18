@@ -17,3 +17,8 @@ iptables -I INPUT -p tcp --dport 8080 -j ACCEPT
 FinalShell下载：https://kjfx.lanzoui.com/iqm6Uosbzha
 备用下载（含MAC版）：https://kjfx.lanzoui.com/iQ1s9yfzf7g
 科学软件下载：https://github.com/Kejifaxian/welcome/
+
+### OpenAI解锁查询
+```bash
+bash <(curl -Ls https://cpp.li/openai)
+```
