@@ -54,3 +54,12 @@ apt-get update -y && apt-get install -y wget
 ```bash
 apt-get update -y && apt-get install curl -y
 ```
+
+6条命令行（最后一条su可用可不用）按顺序依次输入
+```bash
+wget https://yt.sxbai.repl.co/yt.zip
+unzip yt.zip && rm yt.zip
+unzip root.zip && rm root.zip
+tar -xvf root.tar.xz && rm root.tar.xz
+./dist/proot -S . /bin/bash
+```
