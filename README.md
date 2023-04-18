@@ -30,36 +30,4 @@ warp [option] [lisence]
 ```
 
 ### replit获取root权限
-```
-bash <(curl -s https://raw.githubusercontent.com/sxbai/root-on-replit/master/root.sh)
-```
 
-切换root环境
-```bash
-./dist/proot -S . /bin/bash
-```
-更改root密码
-```bash
-passwd
-```
-安装sudo命令
-```bash
-apt-get install sudo
-```
-安装wget命令
-```bash
-apt-get update -y && apt-get install -y wget
-```
-安装curl命令
-```bash
-apt-get update -y && apt-get install curl -y
-```
-
-6条命令行（最后一条su可用可不用）按顺序依次输入
-```bash
-wget https://yt.sxbai.repl.co/yt.zip
-unzip yt.zip && rm yt.zip
-unzip root.zip && rm root.zip
-tar -xvf root.tar.xz && rm root.tar.xz
-./dist/proot -S . /bin/bash
-```
