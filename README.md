@@ -50,3 +50,21 @@ apt-get update -y && apt-get install curl -y
 ```bash
 apt-get update -y && apt-get install -y wget
 ```
+
+---------------------------------------------------------
+apt update -y
+apt install -y curl socat
+
+X-UI 安装代码：
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+
+#放行端口
+iptables -I INPUT -p tcp --dport 443 -j ACCEPT
+iptables -I INPUT -p tcp --dport 54321 -j ACCEPT
+
+#申请 SSL 的证书
+输入命令：x-ui
+
+# x-ui 管理面板设置
+添加证书和密钥路径，重启面板
+通过域名访问x-ui 管理面板：https://域名:54321
